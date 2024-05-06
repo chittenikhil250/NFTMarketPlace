@@ -2,7 +2,13 @@ const { ethers } = require("hardhat");
 const hre = require("hardhat");
 const fs = require("fs");
 
+require('dotenv').config();
+
 async function main() {
+
+  console.log(process.env.REACT_APP_ALCHEMY_API_URL)
+  console.log('first')
+
   const [deployer] = await ethers.getSigners();
   const balance = await deployer.getBalance();
   const Marketplace = await hre.ethers.getContractFactory("NFTMarketplace");

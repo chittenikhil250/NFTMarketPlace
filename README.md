@@ -1,6 +1,6 @@
-# Basic NFT Marketplace end to end
+# Collectiverse NFT MarketPlace 
 
-This code is for the Tutorial [Build your own NFT Marketplace from Scratch](https://docs.alchemy.com/alchemy/) built by [alchemy.com](https://alchemy.com)
+This code is for the Major Project at [GRIET](https://griet.ac.in/) built by [Nikhil Chitte]
 
 To set up the repository and run the marketplace locally, run the below
 ```bash
